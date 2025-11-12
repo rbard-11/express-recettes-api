@@ -1,0 +1,21 @@
+
+### Get all recipes
+
+GET http://localhost:3000/api/recipes
+
+### Get recipe by id 
+
+GET http://localhost:3000/api/recipes/2
+
+### Post a recipe
+
+POST http://localhost:3000/api/recipes
+Content-Type: application/json
+
+{
+    "title": "Pâtes Bolo",
+    "preparation_time": 3,
+    "difficulty": 3,
+    "budget": 3,
+    "description": "Pâtes bolo très bonnes"
+}
